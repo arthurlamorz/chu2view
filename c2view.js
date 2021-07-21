@@ -275,6 +275,10 @@ let chu2_javascript = `
           {title: \"ようこそジャパリパークへ\", genre: \"POPS & ANIME\"},
           {title: \"ラブリー☆えんじぇる!!\", genre: \"POPS & ANIME\"},
           {title: \"シュガーソングとビターステップ\", genre: \"POPS & ANIME\"},
+          {title: \"愛されなくても君がいる\", genre: \"niconico\"},
+          {title: \"ブレス・ユア・ブレス\", genre: \"niconico\"},
+          {title: \"グリーンライツ・セレナーデ\", genre: \"niconico\"},
+          {title: \"砂の惑星 feat. HATSUNE MIKU\", genre: \"niconico\"},
           {title: \"ラクガキスト\", genre: \"niconico\"},
           {title: \"フラジール\", genre: \"niconico\"},
           {title: \"深海少女\", genre: \"niconico\"},
@@ -534,6 +538,11 @@ let chu2_javascript = `
           {title: \"Supersonic Generation\", genre: \"ORIGINAL\"},
           {title: \"Climax\", genre: \"ORIGINAL\"},
           {title: \"宿星審判\", genre: \"ORIGINAL\"},
+          {title: \"2DVenture\", genre: \"ORIGINAL\"},
+          {title: \"まごころのカスクルゥト\", genre: \"ORIGINAL\"},
+          {title: \"せかいせいふく！ゆりあちゃん！\", genre: \"ORIGINAL\"},
+          {title: \"Walzer für das Nichts\", genre: \"ORIGINAL\"},
+          {title: \"スピカの天秤\", genre: \"ORIGINAL\"},
         ], // end of music genre
 
         outer: [
@@ -546,6 +555,10 @@ let chu2_javascript = `
           {title: \"ようこそジャパリパークへ\", BASIC: \"3\", ADVANCED: \"5\", EXPERT: \"9\", MASTER: \"12\"},
           {title: \"ラブリー☆えんじぇる!!\", BASIC: \"3\", ADVANCED: \"6\", EXPERT: \"9\", MASTER: \"12\"},
           {title: \"シュガーソングとビターステップ\", BASIC: \"2\", ADVANCED: \"5\", EXPERT: \"9\", MASTER: \"12\"},
+          {title: \"愛されなくても君がいる\", BASIC: \"3\", ADVANCED: \"5\", EXPERT: \"8+\", MASTER: \"12\"},
+          {title: \"ブレス・ユア・ブレス\", BASIC: \"3\", ADVANCED: \"5\", EXPERT: \"8\", MASTER: \"12\"},
+          {title: \"グリーンライツ・セレナーデ\", BASIC: \"3\", ADVANCED: \"6\", EXPERT: \"9\", MASTER: \"12+\"},
+          {title: \"砂の惑星 feat. HATSUNE MIKU\", BASIC: \"3\", ADVANCED: \"5\", EXPERT: \"8\", MASTER: \"12\"},
           {title: \"ラクガキスト\", BASIC: \"4\", ADVANCED: \"7\", EXPERT: \"11\", MASTER: \"13\"},
           {title: \"フラジール\", BASIC: \"2\", ADVANCED: \"5\", EXPERT: \"8+\", MASTER: \"11\"},
           {title: \"深海少女\", BASIC: \"3\", ADVANCED: \"5\", EXPERT: \"8\", MASTER: \"11+\"},
@@ -807,6 +820,11 @@ let chu2_javascript = `
           {title: \"Supersonic Generation\", BASIC: \"4\", ADVANCED: \"7\", EXPERT: \"11\", MASTER: \"13\"},
           {title: \"Climax\", BASIC: \"4\", ADVANCED: \"9+\", EXPERT: \"12+\", MASTER: \"13+\"},
           {title: \"宿星審判\", BASIC: \"4\", ADVANCED: \"9+\", EXPERT: \"12+\", MASTER: \"14\"},
+          {title: \"2DVenture\", BASIC: \"3\", ADVANCED: \"7\", EXPERT: \"9\", MASTER: \"12\"},
+          {title: \"まごころのカスクルゥト\", BASIC: \"2\", ADVANCED: \"5\", EXPERT: \"9+\", MASTER: \"13\"},
+          {title: \"せかいせいふく！ゆりあちゃん！\", BASIC: \"3\", ADVANCED: \"7\", EXPERT: \"11+\", MASTER: \"13\"},
+          {title: \"Walzer für das Nichts\", BASIC: \"4\", ADVANCED: \"8\", EXPERT: \"12\", MASTER: \"13+\"},
+          {title: \"スピカの天秤\", BASIC: \"4\", ADVANCED: \"8\", EXPERT: \"12\", MASTER: \"13+\"},
         ], // end of outer difficulty
 
         inner: [
@@ -819,6 +837,10 @@ let chu2_javascript = `
           {title: \"ようこそジャパリパークへ\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.1},
           {title: \"ラブリー☆えんじぇる!!\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.3},
           {title: \"シュガーソングとビターステップ\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.2},
+          {title: \"愛されなくても君がいる\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.4},
+          {title: \"ブレス・ユア・ブレス\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.5},
+          {title: \"グリーンライツ・セレナーデ\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.7},
+          {title: \"砂の惑星 feat. HATSUNE MIKU\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.3},
           {title: \"ラクガキスト\", BASIC: 0, ADVANCED: 0, EXPERT: 11.1, MASTER: 13.4},
           {title: \"フラジール\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 11.6},
           {title: \"深海少女\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 11.7},
@@ -1079,6 +1101,11 @@ let chu2_javascript = `
           {title: \"Supersonic Generation\", BASIC: 0, ADVANCED: 0, EXPERT: 11.2, MASTER: 13.4},
           {title: \"Climax\", BASIC: 0, ADVANCED: 0, EXPERT: 12.7, MASTER: 13.9},
           {title: \"宿星審判\", BASIC: 0, ADVANCED: 0, EXPERT: 12.8, MASTER: 14.0},
+          {title: \"2DVenture\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 12.6},
+          {title: \"まごころのカスクルゥト\", BASIC: 0, ADVANCED: 0, EXPERT: 0, MASTER: 13.1},
+          {title: \"せかいせいふく！ゆりあちゃん！\", BASIC: 0, ADVANCED: 0, EXPERT: 11.9, MASTER: 13.5},
+          {title: \"Walzer für das Nichts\", BASIC: 0, ADVANCED: 0, EXPERT: 12.1, MASTER: 13.7},
+          {title: \"スピカの天秤\", BASIC: 0, ADVANCED: 0, EXPERT: 12.1, MASTER: 13.7},
         ], // end of inner difficulty
       }), // end of data
 
